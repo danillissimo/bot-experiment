@@ -2096,9 +2096,9 @@ function ItemUsageThink()
 	   or bot:IsStunned() == true
 	   or bot:IsChanneling() == true
 	   or bot:IsInvulnerable() == true
-	   or bot:IsUsingAbility() == true
+	--    or bot:IsUsingAbility() == true
 	   or bot:IsCastingAbility() == true
-	   or bot:NumQueuedActions() > 0 
+	--    or bot:NumQueuedActions() > 0 
 	   or mutil.IsTaunted(bot) == true
 	   or bot:HasModifier('modifier_teleporting') == true
 	   or bot:HasModifier('modifier_doom_bringer_doom') == true
@@ -2107,13 +2107,8 @@ function ItemUsageThink()
     then 
 		return	BOT_ACTION_DESIRE_NONE 
 	end
-	
-	local extra_range = 0;
-	local aether_lens_slot_type = bot:GetItemSlotType(bot:FindItemSlot('item_aether_lens'));
-	if aether_lens_slot_type == ITEM_SLOT_TYPE_MAIN 
-	then
-		extra_range = extra_range + 225;
-	end
+
+	local extra_range = mutil.CalcExtraCastRange(bot);
 
 	local item_slot = {0,1,2,3,4,5,15,16};
 	local mode = bot:GetActiveMode();
@@ -2125,6 +2120,7 @@ function ItemUsageThink()
 			and itemUseUtils.Use[item:GetName()] ~= nil
 		then
 			local desire, target, target_type = itemUseUtils.Use[item:GetName()](item, bot, mode, extra_range);
+			if desire == nil then print("Error in item: " .. item:GetName()) end
 			if desire > BOT_ACTION_DESIRE_NONE 
 			then
 				if target_type == 'no_target' then

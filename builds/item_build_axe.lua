@@ -14,7 +14,9 @@ X["items"] = {
 	"item_crimson_guard",
 	"item_black_king_bar",
 	"item_ultimate_scepter_2",
-	"item_lotus_orb"
+	"item_lotus_orb",
+	"item_aghanims_shard",
+	"item_overwhelming_blink"
 };			
 
 X["builds"] = {

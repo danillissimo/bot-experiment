@@ -11,6 +11,7 @@ X["items"] = {
 	"item_urn_of_shadows",
 	"item_arcane_boots",
 	"item_spirit_vessel",
+	"item_aghanims_shard",
 	"item_force_staff",
 	"item_glimmer_cape",
 	"item_holy_locket",

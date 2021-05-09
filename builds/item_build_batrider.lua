@@ -12,6 +12,7 @@ X["items"] = {
 	"item_black_king_bar",
 	"item_cyclone",
 	"item_ultimate_scepter",
+	"item_aghanims_shard",
 	"item_hurricane_pike",
 	"item_ultimate_scepter_2",
 	"item_octarine_core"

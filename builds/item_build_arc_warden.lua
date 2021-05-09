@@ -15,6 +15,7 @@ X["items"] = {
 	"item_bloodthorn",
 	"item_mjollnir",
 	"item_silver_edge",
+	"item_aghanims_shard",
 	"item_hurricane_pike"
 };
 

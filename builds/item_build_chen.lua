@@ -11,6 +11,7 @@ X["items"] = {
 	"item_mekansm",
 	"item_ultimate_scepter",
 	"item_force_staff",
+	"item_aghanims_shard",
 	"item_guardian_greaves",
 	"item_glimmer_cape",
 	"item_sheepstick",

@@ -11,6 +11,8 @@ X["items"] = {
 	"item_sange_and_yasha",
 	"item_blade_mail",
 	"item_black_king_bar",
+	"item_basher",
+	"item_aghanims_shard",
 	"item_abyssal_blade",
 	"item_butterfly"
 };

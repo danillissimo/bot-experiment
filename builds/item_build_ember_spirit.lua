@@ -9,13 +9,14 @@ X["items"] = {
 	"item_magic_wand",
 	"item_phase_boots",
 	"item_maelstrom",
-	"item_yasha_and_kaya",
+	"item_bfury",
+	"item_aghanims_shard",
 	"item_lesser_crit",
 	"item_shivas_guard",
 	"item_greater_crit",
 	"item_ultimate_scepter_2",
 	"item_sphere",
-	"item_mjollnir"
+	"item_mjollnir",
 };			
 
 X["builds"] = {

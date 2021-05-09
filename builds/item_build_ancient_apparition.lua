@@ -8,14 +8,16 @@ local skills  = IBUtil.FillSkillTable(npcBot, IBUtil.GetSlotPattern(1));
 X["items"] = { 
 	"item_magic_wand",
 	"item_tranquil_boots",
-	"item_ultimate_scepter",
-	"item_glimmer_cape",
+	"item_cyclone",
 	"item_force_staff",
-	"item_rod_of_atos",
+	"item_aghanims_shard",
+	"item_bloodstone",
+	"item_ultimate_scepter",
 	"item_sheepstick",
-	"item_hurricane_pike",
 	"item_ultimate_scepter_2",
-	"item_octarine_core"
+	"item_hurricane_pike",
+	"item_octarine_core",
+	"item_wind_waker"
 };	
 
 X["builds"] = {

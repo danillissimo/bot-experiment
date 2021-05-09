@@ -24,6 +24,7 @@ X["items"] = {
 	"item_assault",
 	"item_basher",
 	"item_black_king_bar",
+	"item_aghanims_shard",
 	"item_abyssal_blade",
 	"item_ultimate_scepter_2",
 	"item_mjollnir"
